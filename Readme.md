@@ -5,6 +5,5 @@ Este é um projeto reproduzido para praticar algumas técnicas em FRONT END!
 
 
 <hr>
-Veja o projeto abaixo!!!
 
-<img src="" width="100%">
+
