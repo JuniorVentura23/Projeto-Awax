@@ -454,6 +454,10 @@ video {
     cursor:pointer;
     background-color: #bebebe;
     border-radius:50px;
+
+}
+.part-icons i:hover {
+    background-color:var(--color-gold);
 }
 .fume .banner-control{
     position: absolute;  
@@ -461,9 +465,76 @@ video {
     bottom: 10px;
 }
 
-
-
 /* end section out team */
+
+/* start footer */
+footer {
+    padding: 20px 13%;
+    background-color: #000;     
+    height:100%;  
+}
+.area--footer {
+    display: flex;
+    justify-content: center;    
+}
+.footer--ind {
+    flex:1;    
+    width:300px;
+    height:200px;
+    margin:10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+footer .part-icons  {
+    padding:0;    
+}
+footer h4 {
+    font-size: 1.6rem;
+    color:#fff;
+    margin-bottom: 10px;
+}
+.footer--ind p {
+    font-size: 1.2rem;
+    color:#fff;
+    text-align: justify;
+    line-height: 15px;
+}
+.dados {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer--ind .btn {
+    display: inline-block;
+    width:150px;
+    background-color: rgba(250, 250, 250,  0.3);
+    color:#000;
+}
+.footer--ind:last-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(250, 250, 250,  0.3);
+    border-radius:20px;
+    border:none;
+}
+.footer--ind input {
+    border:0;
+    outline: 0;
+    width:280px;
+    height:30px;    
+    border-bottom:1px solid #fff;
+    font-size:1.5rem;
+}
+
+
+
+/* end footer */
+
 
 /* Responsividade inicio 1024px */
 
@@ -473,6 +544,9 @@ video {
     }
     .content-ind, .content-ind:first-child {
         border-left: 1.5px solid #7e7e7e;
+    }
+    .footer--ind input {
+        width:180px;
     }
 }
 
@@ -555,7 +629,10 @@ video {
         width:100%;
         justify-content: center;
         margin-top:10px;
-    }    
+    } 
+    .footer--ind input {
+        width:150px;
+    }   
 }
 
 /* Responsividade fim 768px */
@@ -597,6 +674,9 @@ video {
     .content-buttom  ul {
         display: none;
         
+    }
+   .area--footer {
+        display: block;
     }
     
     }
