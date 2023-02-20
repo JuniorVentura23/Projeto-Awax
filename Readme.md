@@ -13,7 +13,7 @@ Projeto desenvolvido para atender loja de carro.
 <br>
 Confira o projeto Awax!!<br>
 
-### Veja o projeto VentuCar <a href="https://projeto-slidershow.vercel.app/">Online</a>.
+### Veja o projeto VentuCar <a href="https://projeto-awax-nine.vercel.app/">Online</a>.
 
 <br>
 
